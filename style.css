@@ -86,6 +86,7 @@ i{
     flex-grow: 1;
 }
 
+/* Innovation part to delete the task in animated form */
 .list-item{
     transition: all 0.3s ease-out;
 }
