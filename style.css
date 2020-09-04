@@ -1,0 +1,76 @@
+h2{
+    font-family: Georgia;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+
+form{
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    padding-left: 10px ;
+    border: none;
+    flex-grow: 1;
+    outline: 0;
+}
+
+button{
+    background-color: white;
+    border: none;
+    outline: 0;
+    color: lightseagreen;
+    font-size: 1rem;
+}
+
+button:hover{
+    color: green;
+}
+
+#tasks{
+    background-color:lightgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px 25px;
+    height: auto;
+    outline: 0;
+
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+li{
+
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.clearAll{
+
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    padding:  10px 3px;
+    font-size: 0.8rem;
+}
+
+.clearAll:hover{
+    color: red;
+}
